@@ -1,0 +1,26 @@
+[data-cognigy-webchat-root]
+  [data-cognigy-webchat-toggle].webchat-toggle-button {
+  display: none;
+}
+
+[data-cognigy-webchat-root] [data-cognigy-webchat].webchat {
+  height: 90vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  bottom: 0;
+  right: 0;
+  border-radius: 0;
+}
+
+[data-cognigy-webchat-root]
+  [data-cognigy-webchat].webchat
+  .webchat-header-close-button {
+  display: none;
+}
+
+[data-cognigy-webchat-root]
+  [data-cognigy-webchat-toggle].webchat-toggle-button {
+  display: none;
+}
